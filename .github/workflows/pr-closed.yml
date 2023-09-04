@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-resourceGroupName: pr_${{ github.event.number }}
+  resourceGroupName: pr_${{ github.event.number }}
 
 jobs:
     remove:
